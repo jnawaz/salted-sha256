@@ -1,0 +1,29 @@
+{
+  "name": "salt-sha256",
+  "version": "1.0.0",
+  "description": "A library to encrypt a string using SHA256 with a salt",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/eslint ./ && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnawaz/salted-sha256.git"
+  },
+  "keywords": [
+    "encryption",
+    "salt",
+    "sha256",
+    "hash"
+  ],
+  "author": "Jamil Nawaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnawaz/salted-sha256/issues"
+  },
+  "homepage": "https://github.com/jnawaz/salted-sha256#readme",
+  "devDependencies":{
+    "ccolor": "^1.3.1",
+    "eslint": "^8.10.0"
+  }
+}
